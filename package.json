@@ -1,0 +1,15 @@
+{
+  "name": "api-file-metadata",
+  "version": "1.0.0",
+  "description": "Returns filesize in bytes",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  }
+}

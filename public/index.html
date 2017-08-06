@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>File Metadata</title>
+    <meta name="description" content="TimeStamp API">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+          <p>Submit file to get it's size in bytes</p>
+      </h1>
+    </header>
+    <main>
+        <form action='/fileCheck' method='post' enctype="multipart/form-data">
+            <fieldset>
+                <label for='file'>Select file to check:</label>
+                <input type="file" id='file' name='fileupload' />
+                <input type="submit" value="Check file" />
+            </fieldset>
+        </form>
+    </main>
+  </body>
+</html>
